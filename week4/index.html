@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      background-color: DodgerBlue;
+    }
+
+    .flex-container>div {
+      margin: 0;
+      padding: 20px;
+      font-size: 20px;
+    }
+
+    .col1 {
+      background-color: orange;
+    }
+
+    .col2 {
+      background-color: blue-green;
+    }
+
+    .col3 {
+      background-color: greenyellow;
+    }
+
+    .rcorners1 {
+      border: 1px solid orange;
+      border-radius: 40px;
+      background: #fff;
+      padding: 5px;
+      width: 100px;
+      height: 3fr;
+      text-align: center;
+      color: orange;
+      font-size: 5 px;
+    }
+
+    .rcorners2 {
+      border: 1px solid blue-green;
+      border-radius: 40px;
+      background: #fff;
+      padding: 5px;
+      width: 100px;
+      height: 3fr;
+      text-align: center;
+      color: blue;
+      font-size: 5 px;
+    }
+
+    .rcorners3 {
+      border: 1px solid greenyellow;
+      border-radius: 40px;
+      background: #fff;
+      padding: 5px;
+      width: 100px;
+      height: 3fr;
+      text-align: center;
+      color: greenyellow;
+      font-size: 5 px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>A 3-Column Flex Container</h1>
+
+  <div class="flex-container">
+
+    <div class="col1">
+    <img src="img/sedans.png">
+      <h2>SEDANS</h2>
+      <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next
+        road trip. </p>
+      <div class="rcorners1">Learn More</div>
+    </div>
+    <div class="col2">
+      <img src="img/suv.jpeg">
+      <h2>
+        SUVS
+      </h2>
+      <p>
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off
+        adventures.
+      </p>
+      <div class="rcorners2">Learn More</div>
+    </div>
+    <div class="col3">
+      <div>
+        <img src= "img/luxury.png">
+        <img border: 5px;>
+      </div>
+      <h2>LUXURY</h2>
+      <p>
+        Cruise in the best car brand without the bloated prices.Enjoy the enhance comfort of a luxury rental and arrive
+        in style.
+      </p>
+      <div class="rcorners3">Learn More</div>
+    </div>
+  </div>
+</body>
+
+</html>
